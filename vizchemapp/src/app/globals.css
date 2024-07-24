@@ -2,4 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .animate{
+    width: 100%;
+    
+    
+    
+    animation-name: trans;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 
+   
+  }
+      @keyframes trans {
+        from {
+           transform:translateX(0%);
+          }
+          to {
+            transform:translateX(1%);
+          }
+        }
+        
+
+
+        
+        
+      }
+    
+  
